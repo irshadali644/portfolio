@@ -16,10 +16,10 @@ export const Contact = () => {
     e.preventDefault();
     if ((name !== "" && email !== "", message !== "")) {
       emailjs.sendForm(
-        "",
-        "",
+        "service_2evpk17",
+        "template_a7ozww2",
         e.target,
-        ""
+        "5QZbfc85pTaZPQUaE"
       );
       showAlert();
       e.target.reset();
