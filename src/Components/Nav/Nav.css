@@ -1,0 +1,56 @@
+nav {
+  background: #fff 0 0 no-repeat padding-box;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0,0,0,.06), 0 0 4px 0 rgba(0,0,0,.04);
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,.06), 0 0 4px 0 rgba(0,0,0,.04);
+  -moz-box-shadow: 0 2px 8px 0 rgba(0,0,0,.06), 0 0 4px 0 rgba(0,0,0,.04);
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  padding: 0.7rem 0;
+  z-index: 2;
+  position: fixed;
+  align-items: center;
+  backdrop-filter: blur(15px);
+  top: 0;
+}
+.nav-header {
+  padding-left: 0 !important;
+}
+nav > div {
+  display: flex;
+}
+nav > div > div {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  display: flex;
+  color: var(--color-light);
+}
+nav a:hover {
+  color: var(--color-primary);
+}
+
+nav a.active {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
+.link-container {
+  overflow: scroll;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+  }
+  .nav-container > div {
+    justify-content: center;
+  }
+  .nav-container > div a {
+    padding: 0.5rem;
+  }
+}

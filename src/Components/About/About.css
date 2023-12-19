@@ -1,0 +1,88 @@
+.about-container {
+  display: grid;
+  /* grid-template-columns: 40% 60%; */
+  gap: 5%;
+  align-items: center;
+}
+.about-header {
+  color: var(--color-white);
+  margin-bottom: 0;
+}
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.about-card {
+  background: transparent;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+.about-card:hover {
+  background: var(--color-bg-secondary);
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+.about-icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.about-icon h5 {
+  font-size: 0.95rem;
+}
+.about-icon small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+.about-content p {
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
+}
+
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+}
+.about-cards small  {
+ color:#262626
+}
+.about-cards:hover small {
+  color: #fff;
+}
+/*=============For Medium Devices=============*/
+
+@media screen and (max-width: 1024px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .about-me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .about-content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+/*=============For Small Devices=============*/
+@media screen and (max-width: 600px) {
+  .about-me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+  .about-cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .about-content p {
+    margin: 1.5rem;
+  }
+}
