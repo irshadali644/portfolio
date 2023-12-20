@@ -7,5 +7,8 @@ export const skillData = [
   { id: "5", title: "React Js", status: "Intermediate" },
   { id: "6", title: "Git", status: "Intermediate" },
   { id: "7", title: "Redux", status: "Intermediate" },
-   {id:"8", title:"Tailwind css", status:"Intermediate"}
+   {id:"8", title:"Tailwind css", status:"Intermediate"},
+   {id:"9", title:"Less and Sass", status:"Intermediate"},
+   {id:"10", title:"Wordpress", status:"Intermediate"},
+
 ];

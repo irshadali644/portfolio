@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 export const Header = () => {
   return (
-    <section id="skills">
+    <section id="projects">
       <div className="container">
         <div className="header-container">
           <h3>Hi there! I'm Md. Irshad Ansari</h3>

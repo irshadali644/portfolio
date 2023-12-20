@@ -23,7 +23,7 @@ export const About = () => {
                   <div>
                     <VscFolderLibrary className="about-icon" />
                   </div>
-                  <small>Done seabird <br/> Worked on more than 5 projects</small>
+                     <small> Worked on more than 5 projects</small>
                 </article>
               </div>
             </div>
@@ -38,7 +38,7 @@ export const About = () => {
               <br />
               <br />
               My primary area of expertise is in JavaScript, React JS, HTML,
-              CSS, and Bootstrap,Tailwind Css and I have extensive experience in designing
+              CSS, and Bootstrap,Tailwind Css, Sass&Lass, Wordpress and I have extensive experience in designing
               and developing responsive web applications. I have a keen eye for
               detail and strive for excellence in every project that I work on.
               <br />
