@@ -24,14 +24,6 @@
   color: var(--color-primary);
 }
 
-.experience-content {
-  display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 2rem;
-  margin: auto;
-  width: 70%;
-}
-
 .experience-details {
   display: flex;
   gap: 1rem;
@@ -39,7 +31,10 @@
   padding: 1rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  margin: 10px;
+  border-radius: 10px;
 }
+
 .experience-details h4{
   color: #fff;
 }
@@ -48,7 +43,11 @@
   margin-top: 6px;
   color: var(--color-primary);
 }
-
+.experience-details_wrapper {
+  max-width: 50%;
+  width: 100%;
+  float: left;
+}
 /*=============For Medium Devices=============*/
 
 @media screen and (max-width: 1024px) {

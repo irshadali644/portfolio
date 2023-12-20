@@ -11,15 +11,18 @@ export const Skills = () => {
           <div className="experience-content">
             {skillData.map((item) => {
               return (
-                <article className="experience-details" key={item.id}>
-                  <BsPatchCheckFill className="icon" />
-                  <div>
-                    <h4>{item.title}</h4>
-                  </div>
-                </article>
+                <div className="experience-details_wrapper">
+                  <article className="experience-details" key={item.id}>
+                    <BsPatchCheckFill className="icon" />
+                    <div>
+                      <h4>{item.title}</h4>
+                    </div>
+                  </article>
+                </div>
               );
             })}
-          </div>
+            </div>
+         
         </div>
       </div>
     </section>
