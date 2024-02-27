@@ -72,4 +72,8 @@
   .experience-container > div {
     padding: 1rem;
   }
+  .experience-details_wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
 }

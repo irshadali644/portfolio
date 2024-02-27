@@ -11,7 +11,7 @@ export const Nav = () => {
             onClick={() => setActive("#header")}
             className={`nav-header ${active === "#header" ? "active" : ""}`}
           >
-            Irshad Ansari
+            Md. Irshad Ansari
           </a>
         </div>
         <div className="link-container">
