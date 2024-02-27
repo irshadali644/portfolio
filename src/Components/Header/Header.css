@@ -3,3 +3,8 @@
   font-size: 0.9rem;
   margin-bottom: -4rem;
 }
+@media screen and (max-width: 600px) { 
+  .header-container h1 {
+   font-size: 22px;
+  }
+}
