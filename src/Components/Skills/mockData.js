@@ -11,5 +11,6 @@ export const skillData = [
    {id:"9", title:"Tailwind css", status:"Intermediate"},
    {id:"10", title:"Less and Sass", status:"Intermediate"},
    {id:"11", title:"Wordpress", status:"Intermediate"},
+   {id:"12", title:"Next Js", status:"Intermediate"},
 
 ];

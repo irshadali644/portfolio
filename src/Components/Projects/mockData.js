@@ -2,6 +2,8 @@
 import crudApp from "../../Assets/crudApp.PNG";
 import rentPayment from "../../Assets/rentPayment.PNG";
 import project4 from "../../Assets/project4.PNG";
+import crm from "../../Assets/crm.png";
+import seller from "../../Assets/seller.png"
 
 export const projectData = [
   {
@@ -24,5 +26,19 @@ export const projectData = [
     title: "CRUD App",
     githubCodeUrl: "https://github.com/irshadali644/crud-operation",
     demoUrl: "https://operations-crud.netlify.app/",
+  },
+  {
+    id: 5,
+    image: crm,
+    title: "crm ",
+    githubCodeUrl: "",
+    demoUrl: "https://crm.mccoymart.com/login",
+  },
+  {
+    id: 6,
+    image: seller,
+    title: "seller ",
+    githubCodeUrl: "",
+    demoUrl: "https://seller.mccoymart.com/",
   },
 ];
